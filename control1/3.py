@@ -1,16 +1,7 @@
-a = float(input("Введите число a: "))
-b = float(input("Введите число b: "))
+a = float(input("Введите первое число: "))
+b = float(input("Введите второе число: "))
 
-#обмен с дополнительной переменной
-c = a
-a = b
-b = c
-print("\nОбмен значениями с дополнительной переменной:")
-print("a = "+ str(a) + ", b = " + str(b))
-
-#обмен без дополнительной переменной
-a = a + b
-b = a - b
-a = a - b
-print("\nОбмен значениями без дополнительной переменной:")
-print("a = "+ str(a) + ", b = " + str(b))
+print("\n" + str(a) + " + " + str(b) + " = " + str(a + b))
+print(str(a) + " - " + str(b) + " = " + str(a - b))
+print(str(a) + " * " + str(b) + " = " + str(a * b))
+print(str(a) + " / " + str(b) + " = " + str(a / b))
