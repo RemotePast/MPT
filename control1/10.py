@@ -16,4 +16,4 @@ try:
     else:
         print("-1")
 except:
-    print("-11")
+    print("-1")
